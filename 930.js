@@ -4,7 +4,7 @@ let add    = document.getElementById("add")
 let data   = document.getElementById("data")
 let error  = document.getElementById("error")
 let btnall = document.getElementById("delete")
-
+let jean   = document.getElementsByClassName("jean")
 
 function del(key){
     a.splice(key,1)
@@ -18,6 +18,9 @@ function adddata(){
     }
 
 }
+function okay(){
+    jean.innerText = "忽略我這段話這樣好過分"
+}
 
 btn.addEventListener("click",()=>{
     error.innerText = ""
@@ -29,6 +32,7 @@ btn.addEventListener("click",()=>{
     data.innerHTML = null
     adddata()
     add.value = ""
+    okay ()
 })
 
 btnall.addEventListener("click",()=>{
