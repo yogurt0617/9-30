@@ -32,7 +32,7 @@ btn.addEventListener("click",()=>{
     data.innerHTML = null
     adddata()
     add.value = ""
-    okay ()
+    okay()
 })
 
 btnall.addEventListener("click",()=>{
