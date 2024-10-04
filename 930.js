@@ -4,7 +4,7 @@ let add    = document.getElementById("add")
 let data   = document.getElementById("data")
 let error  = document.getElementById("error")
 let btnall = document.getElementById("delete")
-let jean   = document.getElementsByClassName("jean")
+let jean   = document.getElementsByClassName("jean")[0]
 
 function del(key){
     a.splice(key,1)
