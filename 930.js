@@ -18,8 +18,14 @@ function adddata(){
     }
 
 }
+
+function delokay(){
+    jean.innerText = ""
+}
+
 function okay(){
     jean.innerText = "忽略我這段話這樣好過分"
+    jean.HTML += `<button onclick="delokay()">好哦</button>`
 }
 
 btn.addEventListener("click",()=>{
