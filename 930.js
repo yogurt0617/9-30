@@ -25,7 +25,7 @@ function delokay(){
 
 function okay(){
     jean.innerText = "忽略我這段話這樣好過分"
-    jean.innerHTML += `<button onclick="delokay()">好哦</button>`
+    jean.innerHTML += `<p><button onclick="delokay()">好哦</button></p>`
 }
 
 btn.addEventListener("click",()=>{
