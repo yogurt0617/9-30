@@ -9,6 +9,9 @@
     font-weight: bolder;
 }
 .jean{
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
     font-size: 30px ;
-    color: pink ;
+    color: rgb(28, 255, 3) ;
 }

@@ -23,9 +23,15 @@ function delokay(){
     jean.innerText = ""
 }
 
+function gay(){
+    jean.innerText = "我就知道"
+    jean.innerHTML += `<button onclick="delokay()">好哦</button>`
+}
+
 function okay(){
-    jean.innerText = "忽略我這段話這樣好過分"
-    jean.innerHTML += `<p><button onclick="delokay()">好哦</button></p>`
+    jean.innerText = "你不是甲甲嗎"
+    jean.innerHTML += `<div style="display:flex;gap:5px;"><button id="ygay" onclick="gay()">不我是</button> <button id="ygay" onclick="gay()">我當然是</button></div>`
+   
 }
 
 btn.addEventListener("click",()=>{
